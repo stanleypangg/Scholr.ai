@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 interface SidebarProps {
     name: string;
@@ -9,9 +10,15 @@ const Sidebar: React.FC<SidebarProps> = () => {
         <aside>
             <h2>Name here</h2>
             <ul>
-                <li><a href="">Create a New Course</a></li>
-                <li><a href="">Library</a></li>
-                <li><a href="">Profile</a></li>
+                <li>
+                    <Link href="/">Create new Course</Link>
+                </li>
+                <li>
+                    <Link href="/">Library</Link>
+                </li>
+                <li>
+                    <Link href="/">Profile</Link>
+                </li>
             </ul>
         </aside>
     );
