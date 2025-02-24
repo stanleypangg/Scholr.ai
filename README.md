@@ -1,1 +1,1 @@
-# Scholr.ai
+# Scholr.ai: Your AI Tutor
