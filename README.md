@@ -22,7 +22,7 @@ Follow these steps to set up the project locally:
 
 1. **Clone the Repository:**
    ```bash
-   git clone [<repository-url>](https://github.com/stanleypangg/Scholr.ai.git)
+   git clone https://github.com/stanleypangg/Scholr.ai.git
    cd scholr-ai
    ```
 2. **Install Dependencies**
