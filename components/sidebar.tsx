@@ -8,7 +8,7 @@ interface SidebarProps {
 const Sidebar: React.FC<SidebarProps> = () => {
     return (
         <aside>
-            <h2>Name here</h2>
+            <h2><Link href="/">Scholr.ai</Link></h2>
             <ul>
                 <li>
                     <Link href="/">Create new Course</Link>

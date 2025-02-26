@@ -1,8 +1,11 @@
-import React from "react";
-import Sidebar from "../components/sidebar"
+import { ReactElement } from "react";
+import Header from "@/components/header";
+import Sidebar from "@/components/sidebar";
 
-export default function Home() {
-  return (
-    <Sidebar></Sidebar>
-  );
-}
+export default function LandingPage(): ReactElement {
+    return (
+        <>
+            <Header></Header>
+        </>
+    );
+};
