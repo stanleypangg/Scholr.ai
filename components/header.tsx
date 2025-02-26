@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import Button from "./button";
 
 interface HeaderProps {
     // TODO
@@ -19,7 +20,7 @@ const Header: React.FC<HeaderProps> = () => {
                 </Link>
                 <Link href="/about">About</Link>
                 <Link href="/contact">Contact</Link>
-                <Link href="/login" className=" bg-blue-500 text-white rounded-full border border-black">Get Started</Link>
+                <Button href="/login">Get Started</Button>
             </div>
         </header>
     );

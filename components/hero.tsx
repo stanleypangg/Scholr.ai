@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Playfair_Display } from "next/font/google";
+import Button from "./button";
 
 const playfair = Playfair_Display({
     subsets: ["latin"],
@@ -17,8 +18,8 @@ const HeroSection: React.FC = () => {
                     Discover a new way to learn with AI-powered courses.
                 </p>
                 <div className="flex gap-4">
-                    <Link href="/about">Learn More</Link>
-                    <Link href="/login">Get Started</Link>
+                    <Button href="/about">Learn More</Button>
+                    <Button href="/login">Get Started</Button>
                 </div>
             </div>
         </section>
