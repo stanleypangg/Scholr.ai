@@ -1,0 +1,23 @@
+<svg width="250" height="70" viewBox="0 0 250 70" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title {
+      font: bold 28px sans-serif;
+      fill: #333;
+    }
+    .sub {
+      font: 20px sans-serif;
+      fill: #555;
+    }
+    .cap {
+      fill: #4A90E2;
+    }
+  </style>
+  <!-- Graduation cap icon -->
+  <!-- The cap's base -->
+  <polygon class="cap" points="10,20 40,20 25,35" />
+  <!-- The cap's top -->
+  <rect class="cap" x="23" y="35" width="4" height="10" />
+  <!-- Logo text -->
+  <text x="60" y="35" class="title">Scholr</text>
+  <text x="60" y="55" class="sub">.ai</text>
+</svg>
