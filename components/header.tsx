@@ -9,7 +9,7 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = () => {
     return (
         <header>
-            <div className="m-6 flex gap-4">
+            <div className="p-6 flex gap-4 text-white bg-black">
                 <Link href="/">
                     <Image
                         src="/logo.svg"
